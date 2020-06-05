@@ -18,27 +18,9 @@ describe('JS-Selenium-Exercise', function () {
             let title = await driver.getTitle();
             assert.equal(title, "Google");
 
-            // Check that the google logo is visible
+            //start writing tests here:
 
-
-            // Check there are two options present: "Google Search" and "I'm Feeling Lucky"
-
-
-            // Enter text "PayPal" and click "I'm Feeling Lucky"
-
-
-            // Check the url is now "https://www.paypal.com/"
-
-
-            // Click "Sitemap"
-
-
-            // Check the url is now "https://www.paypal.com/us/webapps/mpp/full-sitemap"
-
-
-
-            // Store all of the links on this page into a list and then print them all to system.out
-
+            
 
             await driver.quit();
         })
